@@ -1,0 +1,94 @@
+{
+    "index": {
+        "presentation": {
+            "p1": "Hola, mi nombre es Mauricio Alvarado López, tengo 19 años y nací en la Ciudad de México. Estudié la carrera de Técnico en Programación durante el bachillerato y actualmente estoy estudiando Ingeniería en Inteligencia Articicial en ESCOM. Soy un desarrollador full stack especializado en JavaScript. Soy apasionado, dedicado y comprometido con mi trabajo, dando siempre lo mejor de mi. Personalmente, me considero una persona responsable y organizada, cumpliendo con mi deber en tiempo y forma.",
+            "p2": "La mayoría de los conocimientos que tengo los he adquirido de forma autodidacta puesto que siempre busco estar aprendiendo algo. Lo último que quiero es quedarme atrás ante un ámbito tan variable como lo es este. Precisamente por eso, es que mi meta principal es convertirme en un excelente desarrollador.",
+            "p3": "Esto es McodeX, un proyecto personal donde planeo formar mi propio ambiente laboral, mostrando los proyectos que he realizado y a su vez, aportando los conocimientos que he adquirido para que más personas conozcan lo apasionante que es el mundo de la programación."
+        },
+        "projects": {
+            "cyclon": "Sistema de alertas ante huracanes.",
+            "asno": "Gestor de inventario.",
+            "amantolli": "Mercado de artesanías online.",
+            "lend_app": "Gestor de préstamos.",
+            "parking_esm": "Administrador de estacionamiento.",
+            "ss_esm": "Administrador de servicio social.",
+            "ltx_editor": "Editor de Latex.",
+            "dx_calculator": "Calculadora de derivadas."
+        }
+    },
+    "footer": {
+        "contact": "Contacto",
+        "contact_paragraph": "Si quieres contactar conmigo, solo manda un correo electrónico a mau.alvalop43@gmail.com y con gusto me pondré en contacto contigo.",
+        "social_media": "Redes sociales"
+    },
+    "nav": {
+        "home": "Inicio",
+        "about_me": "Acerca de mi",
+        "projects": "Proyectos",
+        "courses": "Cursos"
+    },
+    "btns": {
+        "visit": "Visitar",
+        "not_available": "No disponible",
+        "developing": "En desarrollo"
+    },
+    "courses": {
+        "welcome": {
+            "title": "Bienvenida",
+            "description": "<div class=\"title-course-menu\">Bienvenida</div> <br> <p>Muchas gracias por confiar en mi y tomarte el tiempo de leer esto. Cualquier duda o comentario puedes enviarmela al correo que se encuentra en la parte de hasta abajo de la página. </p> <p>Felicidades por empezar en el fascinante mundo de la programación, eres un recién nacido. No olvides que es necesario ser autodidacta para poder mantener tus conocimientos al día, por ende, en estos cursos pretendo enseñarte a pensar y ser capaz de entender conceptos e ideas sin que tengas que necesitar alguna explicación.</p> <div class=\"d-flex justify-content-center\"> <img src=\"/images/icons/saludo.png\" width=\"200\"/> </div> <br><br><br><br> <p> <i> \"Los mejores programadores no son sólo marginalmente mejores que los buenos. Se trata de un orden de magnitud mayor, medida por cualquier estándar: creatividad conceptual, velocidad, ingenio o habilidad para solucionar problemas\" </i> - Randall E. Stross </p>"
+        },
+        "fundamentals": {
+            "title": "Fundamentos de programación",
+            "description": "",
+            "classes": {
+                "c1": {
+                    "title": "1.-Introducción",
+                    "url": "<div style=\"--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='rgb(255,255,255)'/%3E%3C/svg%3E&#34;);\" aria-label=\"breadcrumb\"><ol class=\"breadcrumb\"> <li class=\"breadcrumb-item\"><a href=\"/courses#fundamentals\">Fundamentos de programación</a></li><li class=\"breadcrumb-item active\" aria-current=\"page\">Introducción</li></ol> </div>",
+                    "back_btn": "Regresar al listado",
+                    "next_btn": "Siguiente lección",
+                    "body": "body...<br><br><br><br><br><br>"
+                },
+                "c2": {
+
+                },
+                "c3": {
+
+                },
+                "c31": {
+                    "title": "",
+                    "url": "<nav aria-label=\"breadcrumb\"> <ol class=\"breadcrumb\"> <li class=\"breadcrumb-item\"><a href=\"#\">Fundamentos de programación</a></li> <li class=\"breadcrumb-item\"><a href=\"#\">Sintaxis de C</a></li> <li class=\"breadcrumb-item active\" aria-current=\"page\">Uso de paréntesis</li> </ol> </nav>"
+                },
+                "c32": {
+
+                },
+                "c4": {
+
+                }
+            }
+        },
+        "poo": {
+            "title": "Programación orientada a objetos",
+            "description": "",
+            "classes": {
+                "title": "",
+                "class": ""
+            }
+        },
+        "web": {
+            "title": "Diseño de páginas web",
+            "description": "",
+            "classes": {
+                "title": "",
+                "class": ""
+            }
+        },
+        "backend": {
+            "title": "Programación de backend",
+            "description": "",
+            "classes": {
+                "title": "",
+                "class": ""
+            }
+        }
+    }
+}

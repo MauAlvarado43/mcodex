@@ -1,0 +1,35 @@
+{
+    "index": {
+        "presentation": {
+            "p1": "Hello, my name is Mauricio Alvarado López, I am 19 years old and I was born in Mexico City. I studied the Programming Technician career during high school and I am currently studying Articicial Intelligence Engineering at ESCOM. I am a full stack developer specialized in JavaScript. I am passionate, dedicated and committed to my work, always giving my best. Personally, I consider myself a responsible and organized person, fulfilling my duty in a timely manner.",
+            "p2": "Most of the knowledge that I have I have acquired in a self-taught way since I always try to learn something new. The last thing I want to do is stay behind in a field as changeable as this is. That is precisely why my main goal is to become an excellent developer.",
+            "p3": "This is McodeX, a personal project where I plan to form my own work environment, showing the projects that I have been carried out and in turn, contributing the knowledge that I have acquired so that more people know how exciting the world of programming is."
+        },
+        "projects": {
+            "cyclon": "Hurricane alert system.",
+            "asno": "Inventory manager.",
+            "amantolli": "Artisan market.",
+            "lend_app": "Loan manager.",
+            "parking_esm": "Parking manager.",
+            "ss_esm": "Social service administrator.",
+            "ltx_editor": "Latex editor.",
+            "dx_calculator": "Derivative calculator."
+        }
+    },
+    "footer": {
+        "contact": "Contact",
+        "contact_paragraph": "If you want to contact me, just send and email to mau.alvalop43@gmail.com and I will contact you as soon as possible.",
+        "social_media": "Redes sociales"
+    },
+    "nav": {
+        "home": "Index",
+        "about_me": "About me",
+        "projects": "Projects",
+        "courses": "Courses"
+    },
+    "btns": {
+        "visit": "Go",
+        "not_available": "Not available",
+        "developing": "Developing"
+    }
+}

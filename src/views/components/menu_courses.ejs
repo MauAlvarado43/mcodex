@@ -1,0 +1,283 @@
+<div class="info-course">
+    <div class="row">
+
+        <div class="col-md-3">
+
+            <div class="courses-title-menu">
+                <%= assets.nav.courses %>
+            </div>
+
+            <br>
+
+            <div class="btn-menu-container">
+                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                    <button type="button" class="btn btn-dark btn-menu-courses active"><%= assets.courses.welcome.title %></button>
+                    <button type="button" class="btn btn-dark btn-menu-courses"><%= assets.courses.fundamentals.title %></button>
+                    <button type="button" class="btn btn-dark btn-menu-courses"><%= assets.courses.poo.title %></button>
+                    <button type="button" class="btn btn-dark btn-menu-courses"><%= assets.courses.web.title %></button>
+                    <button type="button" class="btn btn-dark btn-menu-courses"><%= assets.courses.backend.title %></button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-1 d-flex justify-content-center">
+            <div class="vl"></div>
+        </div>
+    
+        <div class="col-md-8" id="description">
+
+        </div>
+    
+    </div>
+</div>
+
+<script>
+    let descriptions = [
+        `<%- assets.courses.welcome.description %>`,
+        `
+        <div class="title-course-menu">
+            Fundamentos de programación
+        </div>
+
+        <br>
+
+        <p>
+            En este curso aprenderás C. Puedes hacerte preguntas como "¿Por qué C? ¿Acaso no es un lenguaje bastante viejo? ¿No sería mejor aprender
+            algo más moderno y versátil?" Bueno, por un lado tienes razón, C es un lenguaje bastante viejo y rígido, pero muy robusto. Se dice que
+            los mejores programadores trabajan en C o C++ debido a que permite hacer trucos con el hardware que ningún otro lenguaje permite, es muy 
+            veloz y no consume muchos recursos; además, entre más estricto sea el lenguaje, mejor aprenderás a manejar el código.
+        </p> 
+
+        <br><br>
+        
+        <p> 
+            <i>
+                "Escribir en C o C++ es como utilizar una sierra eléctrica sin ningún tipo de protección." 
+            </i>
+                - Bob Gray
+        </p>
+
+        <br><br>
+
+        Listado de clases:
+
+        <br><br>
+
+        <ul>
+            <li>
+                <a href="/courses/fundamentals/introduction/" class="link-temary">1.-Introducción</a>
+            </li>    
+            <li>
+                <a href="/courses/fundamentals/instalation/" class="link-temary">2.-Requerimientos e instalación</a>
+            </li>   
+            <li>
+                <a href="/courses/fundamentals/syntax/" class="link-temary">3.-Sintaxis de C</a>
+                <ul>
+                    <li>
+                        <a href="#" class="link-temary">3.1.-Uso de paréntesis</a>
+                    </li>   
+                    <li>
+                        <a href="#" class="link-temary">3.2.-Uso de llaves</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">3.3.-Palabras reservadas</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">3.4.-Tipos de variables</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">3.4.-Declaraciones de variables</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">3.4.-Operadores aritméticos</a>
+                    </li> 
+                </ul>
+            </li>   
+            <li>
+                <a href="#" class="link-temary">4.-Condicionales</a>
+                <ul>
+                    <li>
+                        <a href="#" class="link-temary">4.1.-Operadores lógicos</a>
+                    </li>   
+                    <li>
+                        <a href="#" class="link-temary">4.2.-If - else if - else</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">4.3.-Switch</a>
+                    </li> 
+                </ul>
+            </li>  
+            <li>
+                <a href="#" class="link-temary">5.-Ciclos</a>
+                <ul>
+                    <li>
+                        <a href="#" class="link-temary">5.1.-Ciclo do while</a>
+                    </li>   
+                    <li>
+                        <a href="#" class="link-temary">5.2.-Ciclo while</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">5.3.-Ciclo for</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">5.4.-Uso de break</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">5.5.-Uso de continue</a>
+                    </li> 
+                </ul>
+            </li> 
+            <li>
+                <a href="#" class="link-temary">6.-Apuntadores</a>
+                <ul>
+                    <li>
+                        <a href="#" class="link-temary">6.1.-Apuntadores</a>
+                    </li>   
+                    <li>
+                        <a href="#" class="link-temary">6.2.-Apuntadores simples y aritmética de apuntadores</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">6.3.-Apuntadores dobles</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">6.4.-Apuntadores n-ésimos</a>
+                    </li> 
+                </ul>
+            </li> 
+            <li>
+                <a href="#" class="link-temary">7.-Funciones</a>
+                <ul>
+                    <li>
+                        <a href="#" class="link-temary">7.1.-Funciones y tipos de retorno</a>
+                    </li>   
+                    <li>
+                        <a href="#" class="link-temary">7.2.-Paso por valor</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">7.3.-Paso por referencia</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">7.4.-Apuntadores n-ésimos</a>
+                    </li> 
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="link-temary">8.-Arreglos</a>
+                <ul>
+                    <li>
+                        <a href="#" class="link-temary">8.1.-Arreglos unidimensionales estáticos</a>
+                    </li>   
+                    <li>
+                        <a href="#" class="link-temary">8.2.-Arreglos bidimensionales estáticos</a>
+                    </li> 
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="link-temary">9.-Memoria dinámica</a>
+                <ul>
+                    <li>
+                        <a href="#" class="link-temary">9.1.-Uso de malloc</a>
+                    </li>   
+                    <li>
+                        <a href="#" class="link-temary">9.2.-Uso de realloc</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">9.3.-Uso de calloc</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">9.4.-Uso de free</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">9.5.-Arreglos dinámicos</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">9.6.-Apuntadores a void</a>
+                    </li> 
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="link-temary">10.-Enumeradores</a>
+            </li>
+            <li>
+                <a href="#" class="link-temary">11.-Estructuras</a>
+                <ul>
+                    <li>
+                        <a href="#" class="link-temary">11.1.-Uso de struct</a>
+                    </li>   
+                    <li>
+                        <a href="#" class="link-temary">11.2.-Uso de typedef</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">11.3.-Estructuras union</a>
+                    </li> 
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="link-temary">12.-Precompilador</a>
+                <ul>
+                    <li>
+                        <a href="#" class="link-temary">12.1.-Uso de include y archivos de cabecera</a>
+                    </li>   
+                    <li>
+                        <a href="#" class="link-temary">12.2.-Uso de ifdef</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">12.3.-Uso de efine</a>
+                    </li> 
+                </ul>
+            </li> 
+            <li>
+                <a href="#" class="link-temary">13.-Recursividad</a>
+                <ul>
+                    <li>
+                        <a href="#" class="link-temary">13.1.-Algoritmos recursivos</a>
+                    </li>   
+                    <li>
+                        <a href="#" class="link-temary">13.2.-Backtraking</a>
+                    </li> 
+                </ul>
+            </li>
+
+            <li>
+                <a href="#" class="link-temary">14.-Algoritmos de ordenamiento</a>
+                <ul>
+                    <li>
+                        <a href="#" class="link-temary">14.1.-Burbuja</a>
+                    </li>   
+                    <li>
+                        <a href="#" class="link-temary">14.2.-Selección</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">14.3.-Inserción</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">14.4.-Quicksort</a>
+                    </li> 
+                </ul>
+            </li> 
+
+            <li>
+                <a href="#" class="link-temary">15.-Estructuras de datos</a>
+                <ul>
+                    <li>
+                        <a href="#" class="link-temary">15.1.-Pilas</a>
+                    </li>   
+                    <li>
+                        <a href="#" class="link-temary">15.2.-Colas</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">15.3.-Listas enlazadas</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">15.4.-Árboles</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="link-temary">15.5.-Grafos</a>
+                    </li> 
+                </ul>
+            </li> 
+        </ul>
+        `
+    ]
+</script>
