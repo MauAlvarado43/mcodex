@@ -348,7 +348,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .badges-container {
-    height: 7rem;
+    height: 5rem;
     overflow-y: hidden !important;
 }
 
@@ -390,7 +390,7 @@ ul {
     }    
 
     .badges-container {
-        height: 9rem;
+        height: 6rem;
     }
     
     .card {
@@ -429,11 +429,11 @@ ul {
     }    
 
     .badges-container {
-        height: 10rem;
+        height: 6rem;
     }
 
     .card {
-        height: 32rem !important;
+        height: 30rem !important;
     }
 
     .card-text {
@@ -469,11 +469,11 @@ ul {
     }    
 
     .badges-container {
-        height: 13.4rem;
+        height: 8rem;
     }
 
     .card {
-        height: 33rem !important;
+        height: 30rem !important;
     }
 
     .card-text {
